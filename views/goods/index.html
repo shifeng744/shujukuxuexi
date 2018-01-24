@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	这是商品管理界面
+	
+	<table>
+		{foreach $goods_list as $goods}
+		<tr>
+			<td>{$goods.goods_name}</td>
+		</tr>
+		{/foreach}
+	</table>
+</body>
+</html>
